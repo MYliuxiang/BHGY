@@ -26,6 +26,26 @@ PODS:
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
   - TZImagePickerController (3.3.2)
+  - WHC_AutoLayoutKit (2.8.6):
+    - WHC_AutoLayoutKit/AutoCellHeight (= 2.8.6)
+    - WHC_AutoLayoutKit/Frame (= 2.8.6)
+    - WHC_AutoLayoutKit/LayoutGuide (= 2.8.6)
+    - WHC_AutoLayoutKit/LayoutView (= 2.8.6)
+    - WHC_AutoLayoutKit/StackView (= 2.8.6)
+    - WHC_AutoLayoutKit/Util (= 2.8.6)
+  - WHC_AutoLayoutKit/AutoCellHeight (2.8.6):
+    - WHC_AutoLayoutKit/LayoutView
+    - WHC_AutoLayoutKit/Util
+  - WHC_AutoLayoutKit/Frame (2.8.6):
+    - WHC_AutoLayoutKit/Util
+  - WHC_AutoLayoutKit/LayoutGuide (2.8.6):
+    - WHC_AutoLayoutKit/Util
+  - WHC_AutoLayoutKit/LayoutView (2.8.6):
+    - WHC_AutoLayoutKit/Util
+  - WHC_AutoLayoutKit/StackView (2.8.6):
+    - WHC_AutoLayoutKit/Frame
+    - WHC_AutoLayoutKit/LayoutView
+  - WHC_AutoLayoutKit/Util (2.8.6)
   - WRNavigationBar (1.2.0)
   - YYCache (1.0.4)
   - YYCategories (1.0.4):
@@ -45,6 +65,7 @@ DEPENDENCIES:
   - MJRefresh
   - SDWebImage (~> 4.2.2)
   - TZImagePickerController
+  - WHC_AutoLayoutKit
   - WRNavigationBar
   - YYCache
   - YYCategories
@@ -63,6 +84,7 @@ SPEC REPOS:
     - MJRefresh
     - SDWebImage
     - TZImagePickerController
+    - WHC_AutoLayoutKit
     - WRNavigationBar
     - YYCache
     - YYCategories
@@ -80,11 +102,12 @@ SPEC CHECKSUMS:
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  WHC_AutoLayoutKit: 8f1321571cbcc27922ecd9d51a44f4ffe8d98ff8
   WRNavigationBar: dc952230effbb646785f962587caaac06c60f229
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: ae69b40b516859c31c65ca0a26e2f76b9334a24e
+PODFILE CHECKSUM: d15947d0eb27fcb8213a518c9342c02441eaa997
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

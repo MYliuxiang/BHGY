@@ -21,6 +21,7 @@ target 'BHGY' do
    pod 'SDWebImage', '~> 4.2.2' 
    pod 'JXPagingView/Pager'
    pod 'JXCategoryView'
+pod 'WHC_AutoLayoutKit'
 
 
 

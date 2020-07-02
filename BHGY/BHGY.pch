@@ -65,6 +65,8 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #import "Reachability.h"
 #import "JXCategoryView.h"
 #import "JXPagerView.h"
+#import "WHC_AutoLayout.h"
+
 
 
 //工具

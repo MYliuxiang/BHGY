@@ -56,8 +56,6 @@
 		228EA8CC24ADCC1C00288642 /* HandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8CB24ADCC1C00288642 /* HandleTool.m */; };
 		228EA8D124ADCC3A00288642 /* LxEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8CF24ADCC3A00288642 /* LxEmptyView.m */; };
 		228EA8D224ADCC3A00288642 /* LxDelayed.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8D024ADCC3A00288642 /* LxDelayed.m */; };
-		228EA8D824ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8D424ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.m */; };
-		228EA8D924ADCC4700288642 /* UIView+WHC_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8D724ADCC4700288642 /* UIView+WHC_AutoLayout.m */; };
 		228EA8DC24ADCC6700288642 /* UIDevice+VKKeychainIDFV.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8DB24ADCC6700288642 /* UIDevice+VKKeychainIDFV.m */; };
 		228EA8E824ADCF7000288642 /* BANetManagerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8DF24ADCF7000288642 /* BANetManagerCache.m */; };
 		228EA8E924ADCF7000288642 /* BANetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8E024ADCF7000288642 /* BANetManager.m */; };
@@ -182,10 +180,6 @@
 		228EA8CE24ADCC3900288642 /* LxDelayed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxDelayed.h; sourceTree = "<group>"; };
 		228EA8CF24ADCC3A00288642 /* LxEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxEmptyView.m; sourceTree = "<group>"; };
 		228EA8D024ADCC3A00288642 /* LxDelayed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxDelayed.m; sourceTree = "<group>"; };
-		228EA8D424ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WHC_AutoHeightForCell.m"; sourceTree = "<group>"; };
-		228EA8D524ADCC4700288642 /* UIView+WHC_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_AutoLayout.h"; sourceTree = "<group>"; };
-		228EA8D624ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WHC_AutoHeightForCell.h"; sourceTree = "<group>"; };
-		228EA8D724ADCC4700288642 /* UIView+WHC_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_AutoLayout.m"; sourceTree = "<group>"; };
 		228EA8DA24ADCC6700288642 /* UIDevice+VKKeychainIDFV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+VKKeychainIDFV.h"; sourceTree = "<group>"; };
 		228EA8DB24ADCC6700288642 /* UIDevice+VKKeychainIDFV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+VKKeychainIDFV.m"; sourceTree = "<group>"; };
 		228EA8DE24ADCF7000288642 /* BADataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADataEntity.h; sourceTree = "<group>"; };
@@ -361,7 +355,6 @@
 				228EA8CD24ADCC3900288642 /* LxEmptyView.h */,
 				228EA8CF24ADCC3A00288642 /* LxEmptyView.m */,
 				228EA8DD24ADCF7000288642 /* BANetManager */,
-				228EA8D324ADCC4700288642 /* WHC_AutoLayoutKit */,
 				225D412C24ADB5A100FCF0CC /* Category */,
 				225D410524ADB58600FCF0CC /* LYEmptyView */,
 				225D40E024ADB55600FCF0CC /* InputKit */,
@@ -485,18 +478,6 @@
 				228EA8C724ADC97E00288642 /* UIView+SDAutoLayout.h */,
 			);
 			path = SDAutoLayout;
-			sourceTree = "<group>";
-		};
-		228EA8D324ADCC4700288642 /* WHC_AutoLayoutKit */ = {
-			isa = PBXGroup;
-			children = (
-				228EA8D424ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.m */,
-				228EA8D524ADCC4700288642 /* UIView+WHC_AutoLayout.h */,
-				228EA8D624ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.h */,
-				228EA8D724ADCC4700288642 /* UIView+WHC_AutoLayout.m */,
-			);
-			name = WHC_AutoLayoutKit;
-			path = "../../../项目资料/WaiHui/WaiHui/工具/WHC_AutoLayoutKit";
 			sourceTree = "<group>";
 		};
 		228EA8DD24ADCF7000288642 /* BANetManager */ = {
@@ -788,7 +769,6 @@
 				225D411324ADB58600FCF0CC /* UIView+Empty.m in Sources */,
 				225D411224ADB58600FCF0CC /* UIScrollView+Empty.m in Sources */,
 				225D40F524ADB55600FCF0CC /* TXLimitedTextView.m in Sources */,
-				228EA8D924ADCC4700288642 /* UIView+WHC_AutoLayout.m in Sources */,
 				225D414324ADB80600FCF0CC /* HomeVC.m in Sources */,
 				225D415224ADB84B00FCF0CC /* MessageVC.m in Sources */,
 				225D413A24ADB5A100FCF0CC /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -806,7 +786,6 @@
 				225D411424ADB58600FCF0CC /* UIView+LYExtension.m in Sources */,
 				225D40F424ADB55600FCF0CC /* TXLimitedTextField.m in Sources */,
 				225D416124ADBB6D00FCF0CC /* MyColor.m in Sources */,
-				228EA8D824ADCC4700288642 /* UITableViewCell+WHC_AutoHeightForCell.m in Sources */,
 				225D40F324ADB55600FCF0CC /* TXMatchConst.m in Sources */,
 				228EA8C024ADC03000288642 /* UIColor+MyColor.m in Sources */,
 				228EA8CC24ADCC1C00288642 /* HandleTool.m in Sources */,
