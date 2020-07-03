@@ -50,6 +50,7 @@
 		225D415E24ADB9BD00FCF0CC /* LxCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D415D24ADB9BD00FCF0CC /* LxCustomAlert.m */; };
 		225D416124ADBB6D00FCF0CC /* MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D415F24ADBB6D00FCF0CC /* MyColor.m */; };
 		225D416724ADBC4900FCF0CC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D416324ADBC4800FCF0CC /* Reachability.m */; };
+		226A2D9824AED112000293A2 /* AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A2D9724AED112000293A2 /* AppService.m */; };
 		228EA8C024ADC03000288642 /* UIColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8BF24ADC03000288642 /* UIColor+MyColor.m */; };
 		228EA8C824ADC97E00288642 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8C324ADC97E00288642 /* UIView+SDAutoLayout.m */; };
 		228EA8C924ADC97E00288642 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EA8C624ADC97E00288642 /* UITableView+SDAutoTableViewCellHeight.m */; };
@@ -167,6 +168,8 @@
 		225D416024ADBB6D00FCF0CC /* MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColor.h; sourceTree = "<group>"; };
 		225D416324ADBC4800FCF0CC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		225D416624ADBC4800FCF0CC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		226A2D9624AED112000293A2 /* AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppService.h; sourceTree = "<group>"; };
+		226A2D9724AED112000293A2 /* AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppService.m; sourceTree = "<group>"; };
 		228EA8BE24ADC03000288642 /* UIColor+MyColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColor.h"; sourceTree = "<group>"; };
 		228EA8BF24ADC03000288642 /* UIColor+MyColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColor.m"; sourceTree = "<group>"; };
 		228EA8C324ADC97E00288642 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
@@ -262,6 +265,8 @@
 			children = (
 				225D409924ADB31100FCF0CC /* AppDelegate.h */,
 				225D409A24ADB31100FCF0CC /* AppDelegate.m */,
+				226A2D9624AED112000293A2 /* AppService.h */,
+				226A2D9724AED112000293A2 /* AppService.m */,
 				225D40CE24ADB46000FCF0CC /* Base */,
 				225D40CF24ADB46600FCF0CC /* 首页 */,
 				225D40D224ADB47800FCF0CC /* 动态 */,
@@ -799,6 +804,7 @@
 				225D413E24ADB5B200FCF0CC /* UIView+ViewController.m in Sources */,
 				225D413B24ADB5A100FCF0CC /* NSDecimalNumber+Addtion.m in Sources */,
 				228EA8D124ADCC3A00288642 /* LxEmptyView.m in Sources */,
+				226A2D9824AED112000293A2 /* AppService.m in Sources */,
 				225D40F124ADB55600FCF0CC /* TXMatchManager.m in Sources */,
 				228EA8DC24ADCC6700288642 /* UIDevice+VKKeychainIDFV.m in Sources */,
 				225D413724ADB5A100FCF0CC /* MBProgressHUD+Add.m in Sources */,

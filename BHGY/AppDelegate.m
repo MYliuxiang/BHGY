@@ -20,9 +20,11 @@
 //    UIScreen.main.bounds
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = [[MainTabBarController alloc] init];
+    [self.window makeKeyAndVisible];
+
+    [[AppService shareInstance] registerAppService:application didFinishLaunchingWithOptions:launchOptions];
 
        
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
