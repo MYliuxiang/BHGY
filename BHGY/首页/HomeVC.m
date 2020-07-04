@@ -7,7 +7,7 @@
 //
 
 #import "HomeVC.h"
-
+#import "LogingViewController.h"
 @interface HomeVC ()
 
 @end
@@ -23,7 +23,9 @@
    
 }
 - (IBAction)loginAC:(id)sender {
-   [self.navigationController pushViewController:[[BaseViewController alloc] init] animated:YES];
+   LogingViewController *vc = [[LogingViewController alloc]init];
+      
+      [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
