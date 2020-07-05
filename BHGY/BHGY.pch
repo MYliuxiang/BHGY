@@ -49,6 +49,13 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 
 #define lxWindow [UIApplication sharedApplication].keyWindow
 
+/** View 圆角和加边框 */
+#define KViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
 
 
 
@@ -91,7 +98,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #import "DynamicVC.h"
 #import "MessageVC.h"
 #import "VipVC.h"
-
+#import "PresentViewController.h"
 
 
 

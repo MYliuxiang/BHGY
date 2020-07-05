@@ -23,9 +23,10 @@
    
 }
 - (IBAction)loginAC:(id)sender {
-   LogingViewController *vc = [[LogingViewController alloc]init];
-      
-      [self.navigationController pushViewController:vc animated:YES];
+    LogingViewController *vc = [[LogingViewController alloc]init];
+    vc.modalPresentationStyle = 0;
+//    vc.view.backgroundColor = [UIColor whiteColor];
+   [self presentViewController:vc animated:YES completion:nil];
 }
 
 /*

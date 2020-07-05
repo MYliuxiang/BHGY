@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		224F67B224B0B1BB00896B69 /* LogingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67B124B0B1BB00896B69 /* LogingViewController.m */; };
+		224F67BB24B0B6D600896B69 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67BA24B0B6D600896B69 /* PresentViewController.m */; };
+		224F67BE24B0C1DF00896B69 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67BD24B0C1DF00896B69 /* SigninViewController.m */; };
+		224F67C124B1718000896B69 /* ForgetthepasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */; };
 		225D409B24ADB31100FCF0CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D409A24ADB31100FCF0CC /* AppDelegate.m */; };
 		225D40A424ADB31100FCF0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225D40A224ADB31100FCF0CC /* Main.storyboard */; };
 		225D40A624ADB31300FCF0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225D40A524ADB31300FCF0CC /* Assets.xcassets */; };
@@ -90,6 +93,12 @@
 /* Begin PBXFileReference section */
 		224F67B024B0B1BB00896B69 /* LogingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogingViewController.h; sourceTree = "<group>"; };
 		224F67B124B0B1BB00896B69 /* LogingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogingViewController.m; sourceTree = "<group>"; };
+		224F67B924B0B6D600896B69 /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		224F67BA24B0B6D600896B69 /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		224F67BC24B0C1DF00896B69 /* SigninViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		224F67BD24B0C1DF00896B69 /* SigninViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
+		224F67BF24B1718000896B69 /* ForgetthepasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetthepasswordViewController.h; sourceTree = "<group>"; };
+		224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetthepasswordViewController.m; sourceTree = "<group>"; };
 		225D409624ADB31100FCF0CC /* BHGY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHGY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225D409924ADB31100FCF0CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225D409A24ADB31100FCF0CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -246,6 +255,10 @@
 			children = (
 				224F67B024B0B1BB00896B69 /* LogingViewController.h */,
 				224F67B124B0B1BB00896B69 /* LogingViewController.m */,
+				224F67BC24B0C1DF00896B69 /* SigninViewController.h */,
+				224F67BD24B0C1DF00896B69 /* SigninViewController.m */,
+				224F67BF24B1718000896B69 /* ForgetthepasswordViewController.h */,
+				224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -324,6 +337,8 @@
 				225D40DB24ADB52F00FCF0CC /* BaseViewController.xib */,
 				225D40D524ADB52100FCF0CC /* MainTabBarController.h */,
 				225D40D624ADB52100FCF0CC /* MainTabBarController.m */,
+				224F67B924B0B6D600896B69 /* PresentViewController.h */,
+				224F67BA24B0B6D600896B69 /* PresentViewController.m */,
 				224F67AF24B0B1B100896B69 /* 登录 */,
 			);
 			path = Base;
@@ -786,6 +801,7 @@
 			files = (
 				225D411324ADB58600FCF0CC /* UIView+Empty.m in Sources */,
 				225D411224ADB58600FCF0CC /* UIScrollView+Empty.m in Sources */,
+				224F67BB24B0B6D600896B69 /* PresentViewController.m in Sources */,
 				225D40F524ADB55600FCF0CC /* TXLimitedTextView.m in Sources */,
 				225D414324ADB80600FCF0CC /* HomeVC.m in Sources */,
 				225D415224ADB84B00FCF0CC /* MessageVC.m in Sources */,
@@ -805,6 +821,7 @@
 				225D40F424ADB55600FCF0CC /* TXLimitedTextField.m in Sources */,
 				225D416124ADBB6D00FCF0CC /* MyColor.m in Sources */,
 				225D40F324ADB55600FCF0CC /* TXMatchConst.m in Sources */,
+				224F67BE24B0C1DF00896B69 /* SigninViewController.m in Sources */,
 				228EA8C024ADC03000288642 /* UIColor+MyColor.m in Sources */,
 				224F67B224B0B1BB00896B69 /* LogingViewController.m in Sources */,
 				228EA8CC24ADCC1C00288642 /* HandleTool.m in Sources */,
@@ -816,6 +833,7 @@
 				225D409B24ADB31100FCF0CC /* AppDelegate.m in Sources */,
 				228EA8E924ADCF7000288642 /* BANetManager.m in Sources */,
 				225D413E24ADB5B200FCF0CC /* UIView+ViewController.m in Sources */,
+				224F67C124B1718000896B69 /* ForgetthepasswordViewController.m in Sources */,
 				225D413B24ADB5A100FCF0CC /* NSDecimalNumber+Addtion.m in Sources */,
 				228EA8D124ADCC3A00288642 /* LxEmptyView.m in Sources */,
 				226A2D9824AED112000293A2 /* AppService.m in Sources */,
