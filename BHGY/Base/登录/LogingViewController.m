@@ -8,6 +8,7 @@
 
 #import "LogingViewController.h"
 #import "SigninViewController.h"
+#import "RegisterViewController.h"
 @interface LogingViewController ()
 
 @end
@@ -101,7 +102,10 @@
 
 //注册按钮点击事件
 -(void)registerbuttonaciton{
-    
+    RegisterViewController *vc = [[RegisterViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = 0;
+  [self presentViewController:nav animated:YES completion:nil];
     
 }
 
@@ -110,7 +114,7 @@
     SigninViewController *vc = [[SigninViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
        nav.modalPresentationStyle = 0;
-       [self presentViewController:nav animated:YES completion:nil];
+    [self presentViewController:nav animated:YES completion:nil];
     
 }
 
