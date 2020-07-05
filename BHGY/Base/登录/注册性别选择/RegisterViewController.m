@@ -273,9 +273,9 @@
 
 //协议按钮点击
 -(void)xiyibuttonaciton{
-   WYWebController *webVC = [WYWebController new];
-   webVC.url = @"https://www.baidu.com";
-   [self.navigationController pushViewController:webVC animated:YES];
+//   WYWebController *webVC = [WYWebController new];
+//   webVC.url = @"https://www.baidu.com";
+//   [self.navigationController pushViewController:webVC animated:YES];
     
 }
 @end

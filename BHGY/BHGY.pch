@@ -87,7 +87,6 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #import "WRCustomNavigationBar.h"
 #import "MBProgressHUD+Add.h"
 #import "AppService.h"
-#import "WYWebController.h"
 
 //vc
 #import "BaseViewController.h"
