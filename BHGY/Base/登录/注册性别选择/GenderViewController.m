@@ -172,7 +172,7 @@
     tishilabel.font = [UIFont systemFontOfSize:15];
     tishilabel.textColor = [UIColor colorWithHexString:@"#333333"];
     tishilabel.textAlignment = NSTextAlignmentCenter;
-    tishilabel.text = @"注册后将不能修改行呗，确定吗？";
+    tishilabel.text = @"注册后将不能修改性别，确定吗？";
     [_baiseview addSubview:tishilabel];
     
     //关闭按钮

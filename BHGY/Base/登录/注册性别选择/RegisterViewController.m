@@ -177,19 +177,19 @@
 //下一步
 -(void)lijibuttonbuttonaciton{
     
-//    if (_iphoneTextField.text.length ==0) {
-//        [MBProgressHUD showError:@"请输入手机号/账号" toView:self.view];
-//        return;
-//    }
-//    if (_codeTextField.text.length ==0) {
-//        [MBProgressHUD showError:@"请输入验证码" toView:self.view];
-//        return;
-//    }
-//    
-//    if (_passwordTextField.text.length ==0) {
-//        [MBProgressHUD showError:@"请设置密码" toView:self.view];
-//        return;
-//    }
+    if (_iphoneTextField.text.length ==0) {
+        [MBProgressHUD showError:@"请输入手机号/账号" toView:self.view];
+        return;
+    }
+    if (_codeTextField.text.length ==0) {
+        [MBProgressHUD showError:@"请输入验证码" toView:self.view];
+        return;
+    }
+    
+    if (_passwordTextField.text.length ==0) {
+        [MBProgressHUD showError:@"请设置密码" toView:self.view];
+        return;
+    }
     
        GenderViewController *vc = [[GenderViewController alloc]init];
        [self.navigationController pushViewController:vc animated:YES];
