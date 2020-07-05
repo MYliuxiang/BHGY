@@ -7,7 +7,7 @@
 //
 
 #import "RegisterViewController.h"
-
+#import "GenderViewController.h"
 @interface RegisterViewController ()<UITextFieldDelegate>
 
 @end
@@ -18,6 +18,8 @@
     [super viewWillAppear:animated];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -118,8 +120,21 @@
        [baiseview addSubview:lijibutton];
     
        //协议
+    UILabel *xieyilabel = [[UILabel alloc]initWithFrame:CGRectMake(lijibutton.left+64, lijibutton.bottom+9, 145, 14)];
+    xieyilabel.textAlignment = NSTextAlignmentCenter;
+    xieyilabel.font = [UIFont systemFontOfSize:10];
+    xieyilabel.textColor = [UIColor colorWithHexString:@"#999999"];
+    xieyilabel.text = @"点击进入表示你已经阅读并同意";
+    [baiseview addSubview:xieyilabel];
     
-    
+    //用户协议点击
+    UIButton *xiyibutton = [UIButton buttonWithType:UIButtonTypeCustom];
+    xiyibutton.frame = CGRectMake(xieyilabel.right-10, xieyilabel.top, 100, 14);
+    [xiyibutton setTitle:@"《用户协议》" forState:UIControlStateNormal];
+    [xiyibutton setTitleColor:[UIColor colorWithHexString:@"#359EFF"] forState:UIControlStateNormal];
+    xiyibutton.titleLabel.font = [UIFont systemFontOfSize:12];
+    [xiyibutton addTarget:self action:@selector(xiyibuttonaciton) forControlEvents:UIControlEventTouchUpInside];
+    [baiseview addSubview:xiyibutton];
          //其他登录方式
           UILabel *othelabel = [[UILabel alloc]initWithFrame:CGRectMake((kScreenWidth-156)/2, baiseview.bottom+64, 156, 18.5)];
           if (Height_StatusBar ==44) {
@@ -162,19 +177,22 @@
 //下一步
 -(void)lijibuttonbuttonaciton{
     
-    if (_iphoneTextField.text.length ==0) {
-        [MBProgressHUD showError:@"请输入手机号/账号" toView:self.view];
-        return;
-    }
-    if (_codeTextField.text.length ==0) {
-        [MBProgressHUD showError:@"请输入验证码" toView:self.view];
-        return;
-    }
+//    if (_iphoneTextField.text.length ==0) {
+//        [MBProgressHUD showError:@"请输入手机号/账号" toView:self.view];
+//        return;
+//    }
+//    if (_codeTextField.text.length ==0) {
+//        [MBProgressHUD showError:@"请输入验证码" toView:self.view];
+//        return;
+//    }
+//    
+//    if (_passwordTextField.text.length ==0) {
+//        [MBProgressHUD showError:@"请设置密码" toView:self.view];
+//        return;
+//    }
     
-    if (_passwordTextField.text.length ==0) {
-        [MBProgressHUD showError:@"请设置密码" toView:self.view];
-        return;
-    }
+       GenderViewController *vc = [[GenderViewController alloc]init];
+       [self.navigationController pushViewController:vc animated:YES];
     
     
 }
@@ -184,7 +202,9 @@
 //返回按钮
 -(void)fanhuibuttonaciton{
    
-    [self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 
     
 }
@@ -249,5 +269,13 @@
     }else {
         //苹果登录
     }
+}
+
+//协议按钮点击
+-(void)xiyibuttonaciton{
+   WYWebController *webVC = [WYWebController new];
+   webVC.url = @"https://www.baidu.com";
+   [self.navigationController pushViewController:webVC animated:YES];
+    
 }
 @end

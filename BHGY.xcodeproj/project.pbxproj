@@ -12,6 +12,12 @@
 		224F67BE24B0C1DF00896B69 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67BD24B0C1DF00896B69 /* SigninViewController.m */; };
 		224F67C124B1718000896B69 /* ForgetthepasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */; };
 		224F67C424B17D0A00896B69 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C324B17D0A00896B69 /* RegisterViewController.m */; };
+		224F67D024B1CCD600896B69 /* WYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C724B1CCD500896B69 /* WYWebController.m */; };
+		224F67D124B1CCD600896B69 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C824B1CCD500896B69 /* UIView+Frame.m */; };
+		224F67D224B1CCD600896B69 /* WLWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67C924B1CCD500896B69 /* WLWebProgressLayer.m */; };
+		224F67D324B1CCD600896B69 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67CC24B1CCD600896B69 /* NSTimer+addition.m */; };
+		224F67D424B1CCD600896B69 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67CF24B1CCD600896B69 /* WYWebProgressLayer.m */; };
+		224F67D824B1D01100896B69 /* GenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F67D724B1D01100896B69 /* GenderViewController.m */; };
 		225D409B24ADB31100FCF0CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D409A24ADB31100FCF0CC /* AppDelegate.m */; };
 		225D40A424ADB31100FCF0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225D40A224ADB31100FCF0CC /* Main.storyboard */; };
 		225D40A624ADB31300FCF0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225D40A524ADB31300FCF0CC /* Assets.xcassets */; };
@@ -102,6 +108,18 @@
 		224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetthepasswordViewController.m; sourceTree = "<group>"; };
 		224F67C224B17D0A00896B69 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		224F67C324B17D0A00896B69 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		224F67C624B1CCD500896B69 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		224F67C724B1CCD500896B69 /* WYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebController.m; sourceTree = "<group>"; };
+		224F67C824B1CCD500896B69 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		224F67C924B1CCD500896B69 /* WLWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLWebProgressLayer.m; sourceTree = "<group>"; };
+		224F67CA24B1CCD500896B69 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		224F67CB24B1CCD500896B69 /* WYWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebController.h; sourceTree = "<group>"; };
+		224F67CC24B1CCD600896B69 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		224F67CD24B1CCD600896B69 /* WLWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLWebProgressLayer.h; sourceTree = "<group>"; };
+		224F67CE24B1CCD600896B69 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		224F67CF24B1CCD600896B69 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		224F67D624B1D01100896B69 /* GenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenderViewController.h; sourceTree = "<group>"; };
+		224F67D724B1D01100896B69 /* GenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenderViewController.m; sourceTree = "<group>"; };
 		225D409624ADB31100FCF0CC /* BHGY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHGY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225D409924ADB31100FCF0CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225D409A24ADB31100FCF0CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -262,10 +280,38 @@
 				224F67BD24B0C1DF00896B69 /* SigninViewController.m */,
 				224F67BF24B1718000896B69 /* ForgetthepasswordViewController.h */,
 				224F67C024B1718000896B69 /* ForgetthepasswordViewController.m */,
-				224F67C224B17D0A00896B69 /* RegisterViewController.h */,
-				224F67C324B17D0A00896B69 /* RegisterViewController.m */,
+				224F67D524B1CFF500896B69 /* 注册性别选择 */,
 			);
 			path = "登录";
+			sourceTree = "<group>";
+		};
+		224F67C524B1CCD500896B69 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				224F67C624B1CCD500896B69 /* NSTimer+addition.h */,
+				224F67C724B1CCD500896B69 /* WYWebController.m */,
+				224F67C824B1CCD500896B69 /* UIView+Frame.m */,
+				224F67C924B1CCD500896B69 /* WLWebProgressLayer.m */,
+				224F67CA24B1CCD500896B69 /* WYWebProgressLayer.h */,
+				224F67CB24B1CCD500896B69 /* WYWebController.h */,
+				224F67CC24B1CCD600896B69 /* NSTimer+addition.m */,
+				224F67CD24B1CCD600896B69 /* WLWebProgressLayer.h */,
+				224F67CE24B1CCD600896B69 /* UIView+Frame.h */,
+				224F67CF24B1CCD600896B69 /* WYWebProgressLayer.m */,
+			);
+			name = Web;
+			path = "../../../../Downloads/WYWebViewDemo-master/WYWebViewDemo/WYWebViewDemo/Web";
+			sourceTree = "<group>";
+		};
+		224F67D524B1CFF500896B69 /* 注册性别选择 */ = {
+			isa = PBXGroup;
+			children = (
+				224F67C224B17D0A00896B69 /* RegisterViewController.h */,
+				224F67C324B17D0A00896B69 /* RegisterViewController.m */,
+				224F67D624B1D01100896B69 /* GenderViewController.h */,
+				224F67D724B1D01100896B69 /* GenderViewController.m */,
+			);
+			path = "注册性别选择";
 			sourceTree = "<group>";
 		};
 		225D408D24ADB31100FCF0CC = {
@@ -372,6 +418,7 @@
 		225D40D124ADB47300FCF0CC /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				224F67C524B1CCD500896B69 /* Web */,
 				228EA8EF24ADD84200288642 /* UITextView+WZB.h */,
 				228EA8F024ADD84200288642 /* UITextView+WZB.m */,
 				228EA8EC24ADD74C00288642 /* UINavigationController+FDFullscreenPopGesture.h */,
@@ -814,14 +861,17 @@
 				225D414824ADB83100FCF0CC /* DynamicVC.m in Sources */,
 				225D415B24ADB98E00FCF0CC /* NSObject+XWAdd.m in Sources */,
 				225D411524ADB58600FCF0CC /* LYEmptyView.m in Sources */,
+				224F67D324B1CCD600896B69 /* NSTimer+addition.m in Sources */,
 				225D40DD24ADB52F00FCF0CC /* BaseViewController.m in Sources */,
 				228EA8EB24ADCF7000288642 /* BADataEntity.m in Sources */,
+				224F67D424B1CCD600896B69 /* WYWebProgressLayer.m in Sources */,
 				228EA8EA24ADCF7000288642 /* UIImage+CompressImage.m in Sources */,
 				228EA8F124ADD84200288642 /* UITextView+WZB.m in Sources */,
 				228EA8D224ADCC3A00288642 /* LxDelayed.m in Sources */,
 				228EA8EE24ADD74C00288642 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				225D411124ADB58600FCF0CC /* LYEmptyBaseView.m in Sources */,
 				225D415E24ADB9BD00FCF0CC /* LxCustomAlert.m in Sources */,
+				224F67D224B1CCD600896B69 /* WLWebProgressLayer.m in Sources */,
 				225D411424ADB58600FCF0CC /* UIView+LYExtension.m in Sources */,
 				225D40F424ADB55600FCF0CC /* TXLimitedTextField.m in Sources */,
 				225D416124ADBB6D00FCF0CC /* MyColor.m in Sources */,
@@ -830,6 +880,7 @@
 				228EA8C024ADC03000288642 /* UIColor+MyColor.m in Sources */,
 				224F67B224B0B1BB00896B69 /* LogingViewController.m in Sources */,
 				224F67C424B17D0A00896B69 /* RegisterViewController.m in Sources */,
+				224F67D024B1CCD600896B69 /* WYWebController.m in Sources */,
 				228EA8CC24ADCC1C00288642 /* HandleTool.m in Sources */,
 				225D40F224ADB55600FCF0CC /* TXDynamicDelegate.m in Sources */,
 				225D40DF24ADB52F00FCF0CC /* BaseNavigationController.m in Sources */,
@@ -847,10 +898,12 @@
 				228EA8DC24ADCC6700288642 /* UIDevice+VKKeychainIDFV.m in Sources */,
 				225D413724ADB5A100FCF0CC /* MBProgressHUD+Add.m in Sources */,
 				225D40D724ADB52100FCF0CC /* MainTabBarController.m in Sources */,
+				224F67D824B1D01100896B69 /* GenderViewController.m in Sources */,
 				225D40AC24ADB31300FCF0CC /* main.m in Sources */,
 				225D416724ADBC4900FCF0CC /* Reachability.m in Sources */,
 				228EA8C924ADC97E00288642 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				225D415724ADB85600FCF0CC /* MyVC.m in Sources */,
+				224F67D124B1CCD600896B69 /* UIView+Frame.m in Sources */,
 				225D413924ADB5A100FCF0CC /* UIWindow+JXSafeArea.m in Sources */,
 				225D413824ADB5A100FCF0CC /* NSDate+Utilities.m in Sources */,
 			);

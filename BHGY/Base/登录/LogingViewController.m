@@ -14,6 +14,10 @@
 @end
 
 @implementation LogingViewController
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -102,10 +106,10 @@
 
 //注册按钮点击事件
 -(void)registerbuttonaciton{
-    RegisterViewController *vc = [[RegisterViewController alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    nav.modalPresentationStyle = 0;
-  [self presentViewController:nav animated:YES completion:nil];
+     RegisterViewController *vc = [[RegisterViewController alloc]init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+           nav.modalPresentationStyle = 0;
+        [self presentViewController:nav animated:YES completion:nil];
     
 }
 
